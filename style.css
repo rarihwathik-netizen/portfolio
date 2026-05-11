@@ -33,8 +33,8 @@ header {
 
 /* image */
 header img {
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     object-fit: cover;
 }
@@ -255,8 +255,8 @@ a:hover {
     }
 
     header img {
-        width: 80px;
-        height: 80px;
+        width: 100px;
+        height: 100px;
     }
 
     header h1 {
@@ -283,6 +283,8 @@ a:hover {
         font-size: 0.9rem;
     }
 
+
+
     .card-content {
         flex-direction: row;
         /* Horizontal */
@@ -297,13 +299,15 @@ a:hover {
     .card-content img,
     .card-content .text {
         max-width: 45%;
-        /* Image à gauche, texte à droite */
+
         padding: 0;
         border-radius: 0;
-        /* plus de cadre arrondi */
+
         box-shadow: none;
-        /* pas d'ombre */
+
         color: #ccc;
+
+
     }
 
     .footer-content {
